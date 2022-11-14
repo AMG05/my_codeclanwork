@@ -1,0 +1,21 @@
+ls -l gives you extra information like the size of the file or who has access
+ls -a a is for all files displays hidden files and directories as well as normal ones
+cmd + space to find terminal
+mkdir is to make a directory
+cd  change directory
+cd .. - move up one directory
+cd ../../../ - move up multiple directories
+to create a new file, use the touch command
+mv moves a file
+mv to rename
+rm to remove
+rm -fr force remove recursively 
+pwd print working directory 
+ls - list items
+code . - open all files in current directory
+cmd k for clearning the terminal
+cp - copy
+cp -r copy a folder
+mv -r move a folder
+up arrows - shows previous commands
+history - shows lists of previoous commands
