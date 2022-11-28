@@ -12,8 +12,7 @@ def get_book(book_index):
 def add_book(book):
     books.append(book)
 
-# def remove_book(book):
-#     books.remove(book)
+
 
 # def delete_book(book_name):
 #     book_to_delete = None
