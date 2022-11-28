@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>{{ title }} - The Christmas Food Shop</title>
+    </head>
+    <body>
+        <h1>My orders</h1>
+
+        {% for order in orders %}
+            <div>
+                <p>
+                   {{ order.customer_name }}: {{ order.order_date}}: <b>{{ order.quantity }}</b>: {{order.description}}
+                </p>
+            </div>
+        {% endfor %}
+        
+    </body>
+</html>

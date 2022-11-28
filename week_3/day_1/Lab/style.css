@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+body > header{
+    background-color: dodgerblue;
+    color: white;
+}
+
+#logo{
+    margin:0;
+    font-family:"Fredoka One", sans-serif;
+}
+
+img {
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+    padding: 10px;
+    width: 20%;
+  }
+
+  body > main > article p{
+    margin: auto;
+    width: 75%;
+    padding: 10px
+}
+
+#comment-box {
+    margin:auto;
+    width: 75%;
+    height: 130px
+    
+}
+
+body > footer{
+    background-color: dodgerblue;
+    color: white;
+}
