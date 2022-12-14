@@ -14,12 +14,13 @@ Decorator.prototype.addPaint = function(paint){
     return this.stock.push(paint);
 }
 
+
 Decorator.prototype.totalLitres = function(){
-    let result = 0
-    for (let paint of this.stock){
-        result += paint.litres
+    let result = 0;
+    for (let i = 0; i < this.stock.length; i++) {
+        result += this.stock[i].litres;
     }
-    return result
+    return result;
 }
 
 module.exports = Decorator;

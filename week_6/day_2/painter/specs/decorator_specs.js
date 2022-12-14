@@ -23,13 +23,14 @@ describe('paint stock', function(){
         const actual = decorator.numberOfPaintPots();
         assert.strictEqual(actual, 1)
     })
-    it('should add litres in stock', function(){
-        paint1 = Paint(20)
-        paint2 = Paint(15)
-        decorator.addPaint(paint1);
-        decorator.addPaint(paint2);
-        const actual = decorator.totalLitres();  
-        assert.strictEqual(actual, 35)
+    it('should add up litres in stock', function(){
+            let paint1 = new Paint(20)
+            decorator.addPaint(paint1);
+            let paint2 = new Paint(15)
+            decorator.addPaint(paint2);
+            const actual = decorator.totalLitres();  
+            assert.strictEqual(actual, 35);
+        })
     })
 })
 });
