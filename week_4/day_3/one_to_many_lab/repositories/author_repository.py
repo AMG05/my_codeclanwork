@@ -20,6 +20,6 @@ def select_all():
     results = run_sql(sql)
 
     for row in results:
-        author = Author(row['full_name'] )
+        author = Author(row['full_name'] , row['id'])
         authors.append(author)
     return authors

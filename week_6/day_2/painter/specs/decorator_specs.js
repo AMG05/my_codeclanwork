@@ -32,5 +32,5 @@ describe('paint stock', function(){
             assert.strictEqual(actual, 35);
         })
     })
-})
 });
+

@@ -4,6 +4,9 @@ from models.book import Book
 from repositories import author_repository
 from repositories import book_repository
 
+author_repository.delete_all()
+book_repository.delete_all()
+
 author1=Author("Emily Bronte")
 author_repository.save(author1)
 
