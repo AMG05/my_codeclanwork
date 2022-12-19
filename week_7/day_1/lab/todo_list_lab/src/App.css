@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  color: blue;
+  font-family: 'Lato', sans-serif;
+}
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  padding: 8px;
+}
+
+li button {
+  background: #f2360c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li.high-priority {
+  border: 2px solid #1a681e;
+  color: #1a681e;
+}
+li.low-priority {
+  border: 2px solid #f2360c;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  margin:5px;
+}
+button, input[type="submit"]{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+/* 
+button, input[type="radio"]{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+} */
