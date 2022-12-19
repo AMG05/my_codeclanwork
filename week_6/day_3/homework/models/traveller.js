@@ -2,13 +2,13 @@ const Traveller = function(journeys) {
   this.journeys = journeys;
 };
 
-Traveller.prototype.getJourneyStartLocations = function(startLocation) {
+Traveller.prototype.getJourneyStartLocations = function() {
   return this.journeys.map((journey) => {
     return journey.startLocation;
 });
 };
 
-Traveller.prototype.getJourneyEndLocations = function (endLocation) {
+Traveller.prototype.getJourneyEndLocations = function () {
   return this.journeys.map((journey) => {
     return journey.endLocation;
   });
@@ -34,8 +34,11 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
 
 Traveller.prototype.getUniqueModesOfTransport = function (transport) {
   return this.journeys.map((journey) => {
-    return journey.transport !== transport;
+    return journey.transport;
   })
+  filter((transport, index, array) => {
+    return array.indexOf(transport) === index;
+  });
 };
 
 
