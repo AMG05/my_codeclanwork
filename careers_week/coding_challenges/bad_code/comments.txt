@@ -1,0 +1,14 @@
+Some comments we came up with as a class:
+
+- poor use of ternary operators
+- questionable of way of considering error message
+- unclear as to what the function actually does
+- very poor naming
+- first param to focused and map aren't map
+- mistake in param name (consistency)
+- variable 'e' is shadowed in the map function
+- use of var
+- trying to reassign a value to a const variable
+- use of single/double quotes instead of template literal
+- no comments/documentation as to what the code does
+- could store Object.keys(error) in a variable so we don't have to call it up to 12 times
